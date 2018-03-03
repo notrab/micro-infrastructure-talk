@@ -1,0 +1,18 @@
+{
+  "name": "gateway-formql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "micro-proxy": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "micro-proxy -r rules-dev.json",
+    "start": "micro-proxy -r rules-prod.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

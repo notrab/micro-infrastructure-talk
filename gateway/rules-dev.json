@@ -1,0 +1,23 @@
+{
+  "rules": [
+    {
+      "pathname": "/products",
+      "method": ["GET"],
+      "dest": "http://localhost:4001"
+    },
+    {
+      "pathname": "/carts",
+      "method": ["GET"],
+      "dest": "http://localhost:4002"
+    },
+    {
+      "pathname": "/users",
+      "method": ["GET"],
+      "dest": "http://localhost:4003"
+    },
+    {
+      "pathname": "/**",
+      "dest": "http://localhost:4000"
+    }
+  ]
+}

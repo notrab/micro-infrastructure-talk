@@ -1,0 +1,16 @@
+{
+  "rules": [
+    {
+      "pathname": "/products",
+      "dest": "products-api-formql.now.sh"
+    },
+    {
+      "pathname": "/carts",
+      "dest": "carts-api-formql.now.sh"
+    },
+    {
+      "pathname": "/users",
+      "dest": "users-api-formql.now.sh"
+    }
+  ]
+}
