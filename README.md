@@ -6,5 +6,5 @@ Using `micro` and `micro-proxy` to create a cluster of microservices that can ea
 
 1. Start a service (or all) using `npm run dev`
 2. Start the `gateway` service using `npm run dev`
-3. Head to [http://localhost:4000](http://localhost:4000)
-4. Visit any of the running services e.g. `http://localhost:4000/users`
+3. Head to [http://localhost:9000](http://localhost:9000)
+4. Visit any of the running services e.g. `http://localhost:9000/users`
