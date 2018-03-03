@@ -15,6 +15,7 @@
     "micro-dev": "^2.2.0"
   },
   "dependencies": {
-    "micro": "^9.1.0"
+    "micro": "^9.1.0",
+    "microrouter": "^3.0.0"
   }
 }
